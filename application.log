@@ -1,0 +1,62 @@
+2023-02-24 23:32:58,576  INFO [main] Employeeapi:16 - ***********************TC005_Delete_Employee_Record***********************
+2023-02-24 23:32:59,643 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2023-02-24 23:32:59,656 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2023-02-24 23:33:00,006 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2023-02-24 23:33:00,008 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-02-24 23:33:00,009 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2023-02-24 23:33:00,011 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2023-02-24 23:33:00,013 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2023-02-24 23:33:00,014 DEBUG [main] DefaultClientConnection:274 - Sending request: DELETE /api/users7 HTTP/1.1
+2023-02-24 23:33:00,015 DEBUG [main] wire:73 -  >> "DELETE /api/users7 HTTP/1.1[\r][\n]"
+2023-02-24 23:33:00,017 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2023-02-24 23:33:00,018 DEBUG [main] wire:73 -  >> "Host: reqres.in[\r][\n]"
+2023-02-24 23:33:00,019 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2023-02-24 23:33:00,019 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+2023-02-24 23:33:00,020 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-02-24 23:33:00,020 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2023-02-24 23:33:00,022 DEBUG [main] headers:278 - >> DELETE /api/users7 HTTP/1.1
+2023-02-24 23:33:00,023 DEBUG [main] headers:281 - >> Accept: */*
+2023-02-24 23:33:00,024 DEBUG [main] headers:281 - >> Host: reqres.in
+2023-02-24 23:33:00,025 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2023-02-24 23:33:00,026 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+2023-02-24 23:33:00,029 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2023-02-24 23:33:00,260 DEBUG [main] wire:73 -  << "HTTP/1.1 204 No Content[\r][\n]"
+2023-02-24 23:33:00,263 DEBUG [main] wire:73 -  << "Date: Sat, 25 Feb 2023 04:33:00 GMT[\r][\n]"
+2023-02-24 23:33:00,264 DEBUG [main] wire:73 -  << "Content-Length: 0[\r][\n]"
+2023-02-24 23:33:00,265 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2023-02-24 23:33:00,266 DEBUG [main] wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2023-02-24 23:33:00,267 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2023-02-24 23:33:00,268 DEBUG [main] wire:73 -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+2023-02-24 23:33:00,269 DEBUG [main] wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2023-02-24 23:33:00,269 DEBUG [main] wire:73 -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-02-24 23:33:00,270 DEBUG [main] wire:73 -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XMbDrVmpxhLazjbC%2FN73RLh3kprDk7LqQIab5HSlQinwDyEIsJhe%2BSzgIInh%2F%2BVzF1TCKS7kItwOLtsbYcB%2BvBoZusI3TRnIBmwu9YwRqSoJugPaMI%2BcCyX4qw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-02-24 23:33:00,271 DEBUG [main] wire:73 -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-02-24 23:33:00,272 DEBUG [main] wire:73 -  << "Server: cloudflare[\r][\n]"
+2023-02-24 23:33:00,272 DEBUG [main] wire:73 -  << "CF-RAY: 79edb86829a2a217-YYZ[\r][\n]"
+2023-02-24 23:33:00,273 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-02-24 23:33:00,275 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 204 No Content
+2023-02-24 23:33:00,276 DEBUG [main] headers:262 - << HTTP/1.1 204 No Content
+2023-02-24 23:33:00,276 DEBUG [main] headers:265 - << Date: Sat, 25 Feb 2023 04:33:00 GMT
+2023-02-24 23:33:00,277 DEBUG [main] headers:265 - << Content-Length: 0
+2023-02-24 23:33:00,277 DEBUG [main] headers:265 - << Connection: keep-alive
+2023-02-24 23:33:00,278 DEBUG [main] headers:265 - << X-Powered-By: Express
+2023-02-24 23:33:00,278 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2023-02-24 23:33:00,279 DEBUG [main] headers:265 - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+2023-02-24 23:33:00,279 DEBUG [main] headers:265 - << Via: 1.1 vegur
+2023-02-24 23:33:00,280 DEBUG [main] headers:265 - << CF-Cache-Status: DYNAMIC
+2023-02-24 23:33:00,280 DEBUG [main] headers:265 - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XMbDrVmpxhLazjbC%2FN73RLh3kprDk7LqQIab5HSlQinwDyEIsJhe%2BSzgIInh%2F%2BVzF1TCKS7kItwOLtsbYcB%2BvBoZusI3TRnIBmwu9YwRqSoJugPaMI%2BcCyX4qw%3D%3D"}],"group":"cf-nel","max_age":604800}
+2023-02-24 23:33:00,281 DEBUG [main] headers:265 - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-02-24 23:33:00,281 DEBUG [main] headers:265 - << Server: cloudflare
+2023-02-24 23:33:00,282 DEBUG [main] headers:265 - << CF-RAY: 79edb86829a2a217-YYZ
+2023-02-24 23:33:00,285 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2023-02-24 23:33:00,287 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3dd31157
+2023-02-24 23:33:00,287 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2023-02-24 23:33:02,334  INFO [main] Employeeapi:25 - ***********************checking response body***********************
+2023-02-24 23:33:02,343  INFO [main] Employeeapi:27 - Response Body==>
+2023-02-24 23:33:02,357  INFO [main] Employeeapi:41 - ***********************checking Response Time***********************
+2023-02-24 23:33:02,359  INFO [main] Employeeapi:43 - Response Time is==>1136
+2023-02-24 23:33:02,366  INFO [main] Employeeapi:33 - ***********************checking Status Code***********************
+2023-02-24 23:33:02,368  INFO [main] Employeeapi:35 - StatusCode is ==>204
+2023-02-24 23:33:02,374  INFO [main] Employeeapi:53 - ***********************checking Status Line***********************
+2023-02-24 23:33:02,374  INFO [main] Employeeapi:55 - StatusLine is ==>HTTP/1.1 204 No Content
+2023-02-24 23:33:02,377  INFO [main] Employeeapi:77 - ***********************Finished TC005_Delete_Employee_Record***********************
