@@ -17,7 +17,7 @@ public class TC001_Get_All_Employees extends TestBase {
 		//create response object
 		response = httpRequest.request(Method.GET,"/users?page=2");
 		
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
 
 	@Test

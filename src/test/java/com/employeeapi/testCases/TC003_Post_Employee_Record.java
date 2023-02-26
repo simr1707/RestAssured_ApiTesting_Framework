@@ -33,7 +33,7 @@ public class TC003_Post_Employee_Record extends TestBase {
 
 	    // Create response object
 	    response = httpRequest.request(Method.POST, "/users");
-	    Thread.sleep(2000);
+	    Thread.sleep(1000);
 	}
 
 	    @Test

@@ -17,7 +17,7 @@ public class TC005_Delete_Employee_Record extends TestBase {
 		
 		//create response object
 		response= httpRequest.request(Method.DELETE,"/users"+empID);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 	
 	 @Test
